@@ -1,3 +1,6 @@
 [submodule "modules/mod-ale"]
 	path = modules/mod-ale
 	url = https://github.com/azerothcore/mod-ale
+[submodule "modules/mod-arac"]
+	path = modules/mod-arac
+	url = https://github.com/heyitsbench/mod-arac
