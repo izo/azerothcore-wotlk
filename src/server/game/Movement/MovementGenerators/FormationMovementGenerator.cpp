@@ -153,6 +153,9 @@ void FormationMovementGenerator::LaunchMovement(Creature* owner, Unit* target)
         _hasPredictedDestination = false;
     }
 
+    if (velocity > 0.0f && velocity <= 0.01f)
+        return;
+
     if (velocity == 0.0f)
         velocity = target->GetSpeed(MOVE_WALK);
 
